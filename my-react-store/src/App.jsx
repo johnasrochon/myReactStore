@@ -1,19 +1,17 @@
-import Navbar from './components/Navbar.jsx'
-import Footer from './components/Footer.jsx'
-import './App.css'
+
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+import './App.css';
+import Catalog from './pages/Catalog';
+
 
 function App() {
-  
-
   return (
-  <div className="app">
+    <div className="App">
     <Navbar />
-    <main className="main-content">
-      <h1>Welcome To My Online Store</h1>
-      <p>Discover amazing products for low prices</p>
-    </main>
-  </div>
-  )
+    <Catalog />
+    <Footer />
+    </div>
+  );
 }
-
-export default App
+export default App;
