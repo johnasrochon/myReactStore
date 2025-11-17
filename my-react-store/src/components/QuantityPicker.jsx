@@ -14,8 +14,7 @@ function QuantityPicker(){
             setQuantity(newQuantity);
         }
     }
-    //quantity = 1;--This is an incorrect statement
-    //setQuantity(2);--This is the correct way to update the state
+    
     return(
     <div className="quantity-picker">
         <button className="btn-plus"  onClick={increaseQuantity}>+</button>
